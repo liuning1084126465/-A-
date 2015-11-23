@@ -1,0 +1,26 @@
+//
+//  gift.pch
+//  礼物说
+//
+//  Created by lanou3g on 15/11/16.
+//  Copyright © 2015年 liuning.com. All rights reserved.
+//
+#import "URL.h"
+#import "UIImageView+WebCache.h"
+#import "SUNSlideSwitchView.h"
+#import "FMDB.h"
+#import "MJRefresh.h"
+#import "MZGuidePages.h"
+#import "FLSideSlipViewController.h"
+
+#ifndef gift_pch
+#define gift_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* gift_pch */
+
+
+// 判断是否为iOS7
+#define iOS7 [[UIDevice currentDevice].systemVersion doubleValue] > 7.0

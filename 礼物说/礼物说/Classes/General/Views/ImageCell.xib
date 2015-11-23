@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9059" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="ImageCell">
+            <rect key="frame" x="0.0" y="0.0" width="263" height="381"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="263" height="381"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Labelwetttttttttttttttttttrrdfgdffgd" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XFg-cf-mbc">
+                        <rect key="frame" x="10" y="263" width="243" height="50"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="50" id="0y8-qC-VRt"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="￥56.0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RVm-fu-YQN">
+                        <rect key="frame" x="16" y="351" width="60" height="30"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="60" id="V2R-Db-PNu"/>
+                            <constraint firstAttribute="height" constant="30" id="uMK-GR-jPQ"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <color key="textColor" red="0.90614867210000005" green="0.1122260145" blue="0.10021464939999999" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="❤️10003" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Dq7-I7-YVw">
+                        <rect key="frame" x="185" y="351" width="60" height="30"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="ezn-Zf-6QB">
+                        <rect key="frame" x="0.0" y="0.0" width="263" height="263"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="ezn-Zf-6QB" secondAttribute="height" multiplier="1:1" id="wOU-3M-m8x"/>
+                        </constraints>
+                    </imageView>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            </view>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="RVm-fu-YQN" secondAttribute="bottom" id="1wG-N6-fhH"/>
+                <constraint firstItem="XFg-cf-mbc" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="10" id="4rz-hc-cfp"/>
+                <constraint firstItem="Dq7-I7-YVw" firstAttribute="width" secondItem="RVm-fu-YQN" secondAttribute="width" id="CsA-ib-6iz"/>
+                <constraint firstItem="Dq7-I7-YVw" firstAttribute="height" secondItem="RVm-fu-YQN" secondAttribute="height" id="DZi-u8-MfP"/>
+                <constraint firstAttribute="trailing" secondItem="Dq7-I7-YVw" secondAttribute="trailing" constant="18" id="LBQ-nv-7hr"/>
+                <constraint firstItem="XFg-cf-mbc" firstAttribute="top" secondItem="ezn-Zf-6QB" secondAttribute="bottom" id="Rja-Tc-CnB"/>
+                <constraint firstAttribute="trailing" secondItem="XFg-cf-mbc" secondAttribute="trailing" constant="10" id="TlV-Ip-Tai"/>
+                <constraint firstItem="Dq7-I7-YVw" firstAttribute="top" secondItem="RVm-fu-YQN" secondAttribute="top" id="XNh-nd-mwZ"/>
+                <constraint firstItem="ezn-Zf-6QB" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="cwV-5U-Faz"/>
+                <constraint firstItem="RVm-fu-YQN" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="16" id="ehX-w1-lhg"/>
+                <constraint firstItem="ezn-Zf-6QB" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="exY-Ik-wbo"/>
+                <constraint firstItem="ezn-Zf-6QB" firstAttribute="width" secondItem="gTV-IL-0wX" secondAttribute="width" id="t4X-Tq-uo2"/>
+            </constraints>
+            <size key="customSize" width="263" height="381"/>
+            <connections>
+                <outlet property="imgView" destination="ezn-Zf-6QB" id="IPy-7x-p2K"/>
+                <outlet property="loveCount" destination="Dq7-I7-YVw" id="heV-qP-1ah"/>
+                <outlet property="name" destination="XFg-cf-mbc" id="u8J-YT-FSn"/>
+                <outlet property="price" destination="RVm-fu-YQN" id="xf8-rH-9Ca"/>
+            </connections>
+            <point key="canvasLocation" x="488.5" y="399.5"/>
+        </collectionViewCell>
+    </objects>
+</document>
